@@ -90,7 +90,7 @@ quarkusdroneshop-counter     qdca10pro               homeoffice-ui
 | [quarkusdroneshop-homeoffice](https://github.com/quarkusdroneshop/quarkusdroneshop-homeoffice) | C | 複数店舗の売上・注文データを集計する GraphQL API バックエンド(homeoffice-ui 向け) |
 | [quarkusdroneshop-homeoffice-ui](https://github.com/quarkusdroneshop/quarkusdroneshop-homeoffice-ui) | C | ホームオフィス向けダッシュボード UI。売上チャート・ライブ注文ボード・在庫アラートを表示する(React + TypeScript) |
 
-いずれも Quarkus(homeoffice-ui のみ React)で実装されており、ドメイン間はこれまで Kafka トピックの直接購読で連携していた。この直接連携を [datamesh-dataproducts](https://github.com/nmushino/datamesh-dataproducts) 経由に置き換えていくことが、本プロジェクトの Data Mesh 化の中心的な取り組みである。
+いずれも Quarkus(homeoffice-ui のみ React)で実装されており、ドメイン間はこれまで Kafka トピックの直接購読で連携していた。この直接連携を [datamesh-dataproducts](https://github.com/nmushino/datamesh-dataproducts) 経由に置き換えていくこと、及び最新のコンポーネント、ライブラリを整理し、最終的には、Enterprise Nervous System を目指す。
 
 詳細は [docs/components.md](docs/components.md) を参照。
 
