@@ -1,6 +1,6 @@
 # quarkusdroneshop-documentation
 
-QuarkusDroneShop プロジェクト全体のドキュメントリポジトリである。各コンポーネントリポジトリの役割と、プロジェクト全体が目指す **Data Mesh 化** の目的・背景をまとめる。
+QuarkusDroneShop プロジェクト全体のドキュメントリポジトリである。各コンポーネントリポジトリの役割と、プロジェクト全体が目指す **Data Mesh 化** の目的・背景をまとめる。なお、このプロジェクトは[quarkuscoffeeshop](https://quarkuscoffeeshop.github.io) を引き継ぎ、リメイクしたものである。
 
 - オリジナルサイト: [quarkusdroneshop.github.io](https://quarkusdroneshop.github.io)
 
